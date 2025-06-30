@@ -1,3 +1,4 @@
+/* Escolhe a fonte do site, coloca fundo claro e tira as margens padrão da página */
 body {
   font-family: Arial, sans-serif;
   background-color: #f9f9f9;
@@ -5,11 +6,13 @@ body {
   padding: 0;
 }
 
+/* Cabeçalho com fundo escuro e um pouco de espaço dentro */
 header {
   background-color: #333;
   padding: 10px;
 }
 
+/* Deixa o menu em linha, sem bolinhas, centralizado e sem espaço extra */
 nav ul {
   list-style-type: none;
   display: flex;
@@ -18,20 +21,24 @@ nav ul {
   margin: 0;
 }
 
+/* Espaço entre os itens do menu */
 nav li {
   margin: 0 15px;
 }
 
+/* Links do menu com cor branca, sem sublinhado e em negrito */
 nav a {
   color: #fff;
   text-decoration: none;
   font-weight: bold;
 }
 
+/* Deixa o link da página atual sublinhado */
 nav a.ativo {
   text-decoration: underline;
 }
 
+/* Área principal do site com largura fixa, centralizada e fundo branco */
 main {
   max-width: 700px;
   margin: 40px auto;
@@ -40,29 +47,35 @@ main {
   border-radius: 10px;
 }
 
+/* Título centralizado e cor escura */
 main h1 {
   text-align: center;
   color: #333;
 }
 
+/* Tira as bolinhas da lista dentro do conteúdo principal */
 main ul {
   list-style: none;
   padding: 0;
 }
 
+/* Espaço entre os itens da lista */
 main li {
   margin-bottom: 20px;
 }
 
+/* Cor azul nos links, sem sublinhado */
 main a {
   color: #0077b5;
   text-decoration: none;
 }
 
+/* Quando passa o mouse no link, aparece sublinhado */
 main a:hover {
   text-decoration: underline;
 }
 
+/* Estilo da foto: centralizada, deixa redonda e com borda cinza */
 .foto-karine {
   display: block;
   margin: 20px auto;
@@ -71,10 +84,12 @@ main a:hover {
   border: 2px solid #ccc;
 }
 
+/* Espaço acima do formulário */
 form {
   margin-top: 20px;
 }
 
+/* Campos do formulário ocupam toda a largura e têm bordas suaves */
 input, textarea {
   width: 100%;
   padding: 10px;
@@ -84,6 +99,7 @@ input, textarea {
   border-radius: 5px;
 }
 
+/* Botão do formulário com fundo escuro, texto branco e arredondado */
 input[type="submit"] {
   background-color: #333;
   color: #fff;
@@ -93,6 +109,7 @@ input[type="submit"] {
   cursor: pointer;
 }
 
+/* Quando passa o mouse no botão, ele fica um pouco mais claro */
 input[type="submit"]:hover {
   background-color: #555;
 }
